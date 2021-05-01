@@ -28,27 +28,6 @@ const TaskTracker = () => {
     
 
     const [tasks,setTasks]=useState([
-        {
-            id:1,
-            text: 'Meet at school',
-            day: 'Feb 5th at 2:30pm',
-            reminder: true
-    
-        },
-        {
-            id:2,
-            text: 'go study',
-            day: 'Feb 5th at 2:30pm',
-            reminder: true
-    
-        },
-        {
-            id:3,
-            text: 'go NHS for doctor',
-            day: 'Feb 5th at 2:30pm',
-            reminder: false
-    
-        },
     ])
 
     const addTask=(task)=>{
